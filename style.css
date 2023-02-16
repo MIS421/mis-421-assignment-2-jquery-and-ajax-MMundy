@@ -1,1 +1,14 @@
- 
+.body {
+    background-image: url("https://unsplash.com/photos/UWdTDa1Z9DM");
+    background-color: lightgreen;
+}
+
+#searchResults {
+    display: none;
+}
+
+#time {
+    display: none;
+}
+
+/*Add other styling*/

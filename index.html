@@ -3,12 +3,27 @@
 <html lang="en">
 
 <head>
-
-  <link rel="stylesheet" href="./style.css">
+    <title>Name of search engine</title>
+    <!--jQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha384-Ft/vb48LwsAEtgltj7o+6vtS2esTU9PCpDqcXs4OCVQFZu5BqprHtUCZ4kjK+bpE" crossorigin="anonymous"></script>
+    <!--jQuery UI theme-->
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css" integrity="sha384-Nlo8b0yiGl7Dn+BgLn4mxhIIBU6We7aeeiulNCjHdUv/eKHx59s3anfSUjExbDxn" crossorigin="anonymous">
+    <!--jQuery UI-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" integrity="sha384-Dziy8F2VlJQLMShA6FHWNul/veM9bCkRUaLqr199K94ntO5QUrLJBEbYegdSkkqX" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
 
 </head>
 
 <body>
+    <h1 id="searchEngineName">Name of search engine</h1>
+    <input type="text" id="query"/>
+    
+    <button id="Search">Search</button>
+
+    <button id="currentTime">Display Current Time</button>
+
+    <div id="searchResults"> </div>
+    <div id="time"></div>
 
   <script type="text/javascript" src="./script.js"></script>
 
